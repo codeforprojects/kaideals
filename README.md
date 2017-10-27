@@ -1,17 +1,18 @@
-#Kaideals
+# Kaideals
 A React/react-native app for users to check flash deals in the immediate future.  The app is built on:
 
-## Front-End
+### Front-End
 - React/React-native
 - Redux
+- CSS Grids
 
-## Back-End
+### Back-End
 - NodeJS
 
-## DB
+### DB
 - Postgres / Mongodb 
 
-# Team
+## Team
 Members of 'Code For Projects' meetup of FreeCodeCamp Auckland meeting every Tuesday.
 
 
@@ -32,7 +33,7 @@ Members of 'Code For Projects' meetup of FreeCodeCamp Auckland meeting every Tue
 
 To start developing you will need to [install docker ](https://docs.docker.com/engine/installation/)
 
--'No Docker' ( Windows ) users, follow the 'No Docker' development instructions
+- Users who can't use Docker, follow the 'No Docker' development [instructions](no-docker)
 
 #### 2.A Docker-compose
 
@@ -46,13 +47,17 @@ Install the relevant version of node js for your operating system [here](https:/
 This will install npm and node.
 
 ### 4. Git
-Now we have to install the git version control system, the 'git' in github.
+Check your git version by
 
-type 
-```git``` in the terminal, if it says ```command not found``` then you need to install it.
+```git -v```
 
-- mac -  in terminal type ``` xcode-select --install```
-- windows cygwin - 
+If you get a  ```command not found``` then you need to install it. Type
+
+```sudo apt-get install git```
+
+- mac -  in terminal type 
+``` xcode-select --install```
+- windows cygwin check this page for [instructions](http://redmine.jamoma.org/projects/1/wiki/Installing_and_setting_up_GIT):
 
 For UI based Git tool, install [GitKraken](https://www.gitkraken.com/download)
 
@@ -63,11 +68,12 @@ This is called cloning a repository, or to clone a repo.
 
 - open your terminal 
 - navigate to where you want to download the project to.
-- type: ```git clone https://github.com/codeforprojects/kaideals.git```
+- type: 
+```git clone https://github.com/codeforprojects/kaideals.git```
 
-This will this download the repo locally and turn it into a git repository, which allows to track all the changes you make.
+This will this clone the repo locally and turn it into a git repository, which allows to track all the changes you make.
 
-- now you can go ino the project dir
+- now you can go ino the project directory
 - ```cd kaideals```
 
 ### Optional - SSH
@@ -82,9 +88,10 @@ Hopefully everything has been set up.
 
 - open your terminal
 - navigate project folder kaideals
-- type ```make install```
+- type 
+```make install```
     - this npm installs all the dependencies for the project
-- ```make start```
+ ```make start```
 
 
 - type ```docker ps``` to see the app running in its container
