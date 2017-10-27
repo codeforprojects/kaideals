@@ -35,7 +35,7 @@ docker-compose.override.yml:
 
 
 start: docker-compose.override.yml
-	docker-compose up -d
+	sudo docker-compose up -d
 	${MAKE} refresh
 
 stop:

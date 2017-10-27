@@ -1,40 +1,42 @@
-# kaideals
-Flash deals for restaurants / fast food web app
+#Kaideals
+A React/react-native app for users to check flash deals in the immediate future.  The app is built on:
+
+## Front-End
+- React/React-native
+- Redux
+
+## Back-End
+- NodeJS
+
+## DB
+- Postgres / Mongodb 
+
+# Team
+Members of 'Code For Projects' meetup of FreeCodeCamp Auckland meeting every Tuesday.
 
 
 ## Getting started
 
-Before we start developing we will need to set up a few things
-
-
-
-
-### 1. terminal
-You will need to have a bash command line to run many of the developer tools we use in the project.
-- Mac - macOS comes preInstalled with the 'Terminal' application
-- windows - Please download and install Cygwin - this a bash terminal very the same as used on Mac and Linux
+### 1. Terminal( Linux/Mac OS), Cygwin ( Windows ) or any other bash CLI
+- Windows - 
     - download cygwin [here](https://www.cygwin.com/) - 
     - install the .exe
     - during the install process search for and add 'git' & 'make' to the packages
-- Linux - 
 
-##### Resources for terminal
+##### Resources for Terminal
    
  Youtube vids
  - [For mac users (and Windows if you use Cygwin) ](https://www.youtube.com/watch?v=jDINUSK7rXE)
- 
- 
 
-### 2. docker
+### 2. Docker
 
 To start developing you will need to [install docker ](https://docs.docker.com/engine/installation/)
 
+-'No Docker' ( Windows ) users, follow the 'No Docker' development instructions
 
+#### 2.A Docker-compose
 
-#### 2.X docker i'snt working
-
-If you on cannot install docker please follow the 'No Docker' development instructions
-
+You will also need Docker Compose. Instructions [here ](https://docs.docker.com/compose/install/)
 
 
 ### 3. Node
@@ -42,8 +44,6 @@ If you on cannot install docker please follow the 'No Docker' development instru
 Install the relevant version of node js for your operating system [here](https://nodejs.org/en/download/)
 
 This will install npm and node.
-
-
 
 ### 4. Git
 Now we have to install the git version control system, the 'git' in github.
@@ -54,6 +54,7 @@ type
 - mac -  in terminal type ``` xcode-select --install```
 - windows cygwin - 
 
+For UI based Git tool, install [GitKraken](https://www.gitkraken.com/download)
 
 
 ### 5. Clone the Repo
@@ -104,30 +105,7 @@ Make sure you have npm or yarn installed
 [http://localhost:8000/](http://localhost:8000/)
 
 
-
-
-### waffle.io
+### Waffle.io
 Managing and tracking project progress
 
-# Product
 
-## Web app
-
-## Mobile App - iOS / Android / React Native
-
-
-# Tech Stack
-
-## Front-End
-- React.js
-- Redux
-
-## Back-End
-- NodeJS
-
-## DB
-- postgres / mongodb database
-
-
-# Team
-Coding Tuesdays at Code For Projects meetup
