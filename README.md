@@ -33,7 +33,7 @@ Members of 'Code For Projects' meetup of FreeCodeCamp Auckland meeting every Tue
 
 To start developing you will need to [install docker ](https://docs.docker.com/engine/installation/)
 
-- Users who can't use Docker, follow the 'No Docker' development [instructions](no-docker)
+- Users who can't use Docker, follow 'No Docker' 
 
 #### 2.A Docker-compose
 
