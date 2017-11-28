@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Header from './Header.jsx';
 import DealsContainer from './deals/deal_container.jsx';
 import Footer from './Footer.jsx';
-import Register from './deals/Register';
+
 
 import ContributorContainer from './coders/contributor_container.jsx'
 
