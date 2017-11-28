@@ -26,7 +26,8 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "throng": "^4.0.0",
-    "winston": "^2.2.0"
+    "winston": "^2.2.0",
+    "react-router-dom": "latest"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
