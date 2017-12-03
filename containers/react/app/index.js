@@ -1,18 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/Intro.jsx";
-import Registration from "./components/deals/registration"
+import history from './history';
 
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {Router} from "react-router-dom";
 // import style from '../../public/sass/screen.scss';
 
-ReactDOM.render(<BrowserRouter>
-        <div>
-            <Switch>
-                <Route exact path="/" component={App}/>
-                <Route path="/registration" component={Registration}/>
-            </Switch>
-        </div>
-    </BrowserRouter>
-
-    , document.getElementById('root'));
+ReactDOM.render(
+    <Router history={history}>
+        <App />
+    </Router>
+, document.getElementById('root'));

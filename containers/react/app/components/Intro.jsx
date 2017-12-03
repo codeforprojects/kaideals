@@ -1,7 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
 
 import Header from './Header.jsx';
 import DealsContainer from './deals/deal_container.jsx';
+import Register from './deals/register.jsx';
 import Footer from './Footer.jsx';
 
 
@@ -12,10 +14,12 @@ class App extends Component {
     return (
       <div className="app">
         <Header />
-        <DealsContainer/>
-        {/*<ContributorContainer />*/}
+        <Switch>
+          <Route exact path="/" component={DealsContainer} />
+          <Route path="/register" component={Register} />
+          <Route path="/contributors" component={ContributorContainer} />
+        </Switch>
         <Footer />
-
       </div>
     );
   }

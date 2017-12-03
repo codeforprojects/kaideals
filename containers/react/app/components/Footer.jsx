@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+
+import {
+    Nav,
+    Navbar,
+    NavItem
+} from 'react-bootstrap';
 
 class Footer extends Component {
     render() {
         return (
-            <div style={{border: "1px black solid"}}>
-                This the goddam footer component yo
-            </div>
+            <Navbar inverse>
+                <Nav pullRight>
+                    <NavItem eventKey={1}><Link to={"/contributors"}>Contributors</Link></NavItem>
+                </Nav>
+            </Navbar>
         );
     }
 }

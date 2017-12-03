@@ -12,16 +12,14 @@ class Header extends Component {
                 <Navbar inverse>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            Kai Deals
+                            <Link to="/">Kai Deals</Link>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight>
-                            <NavItem eventKey={1} href="/login">Dealer Login</NavItem>
-                        </Nav>
-                        <Nav pullRight>
-                           <NavItem><Link to={"/registration"}>Register</Link></NavItem>
+                            <NavItem eventKey={1}><Link to="/register">Register</Link></NavItem>
+                            <NavItem eventKey={2}><Link to="/login">Login</Link></NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
