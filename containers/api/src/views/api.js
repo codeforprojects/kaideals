@@ -43,3 +43,11 @@ exports.patrick = function(req, res) {
     })
 
 };
+
+exports.user = function(req, res) {
+
+    models.users.find(req.params.id).then(data => {
+        res.json(data);
+    });
+
+};

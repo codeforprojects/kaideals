@@ -7,6 +7,10 @@ module.exports = {
     Deals: {
         add: sql('deals/add.sql')
         , find: sql('deals/find.sql')
+    },
+    Users: {
+        add: sql('users/add.sql')
+        , find: sql('users/find.sql')
     }
 };
 
@@ -27,4 +31,3 @@ function sql(file) {
 
     return qf;
 }
-

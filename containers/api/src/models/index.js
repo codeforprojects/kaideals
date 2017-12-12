@@ -7,6 +7,8 @@ var options = {
     promiseLib: promise
     , extend(obj, dc) {
         obj.deals = new js.Deals(obj, pgp);
+    }, extend(obj, dc) {
+        obj.users = new js.Users(obj, pgp);
     }
 };
 
@@ -25,4 +27,3 @@ db.connect()
 // End for testing purposes only
 
 module.exports = db;
-
